@@ -11,7 +11,9 @@ pipeline {
         
         stage('Test') {
             steps {
-                echo 'Testing...'
+                sh '''
+                ls
+                ''' 
                 // Add your test steps here
             }
         }
