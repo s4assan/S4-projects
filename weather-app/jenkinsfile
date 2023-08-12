@@ -13,6 +13,7 @@ pipeline {
             steps {
                 sh '''
                 ls
+                pwd
                 ''' 
                 // Add your test steps here
             }
